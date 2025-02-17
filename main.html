@@ -9,19 +9,28 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="#" method="POST">
-		<label for="name">Name*</label>
-		<input type="text" id="name" required>
+		<label for="name">Name*:</label>
+		<input type="text" id="name" name="name" required>
 		<br>
 
-		<label for="email">Email*</label>
-		<input type="email" id="email" required>
+		<label for="email">Email*:</label>
+		<input type="email" id="email" name="name" required>
 		<br>
 
-		<label for="radio">Gender*</label>
-		<input type="radio" id="gender" required>
+		<label>Gender*:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+		<br>
+        
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
 		<br>
 
-		<label for="laptop-brands">Laptop Brands</label>
+		<input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br>
+
+		<label for="laptop-brands">Laptop Brands:</label>
 		<select id="laptop-brands" name="laptop-brands">
 			<option value="Apple">Apple</option>
 			<option value="Asus">Asus</option>
@@ -29,15 +38,15 @@
 		</select>
 		<br>
 
-		<label for="age">Age*</label>
+		<label for="age">Age*:</label>
 		<input type="number" required>
 		<br>
 
-		<label for="date">Date of Birth*</label>
+		<label for="date">Date of Birth*:</label>
 		<input type="date" id="dob" required>
 		<br>
 
-		<label for="password">Password*</label>
+		<label for="password">Password*:</label>
 		<input type="password" id="password" required>
 		<br>
 
